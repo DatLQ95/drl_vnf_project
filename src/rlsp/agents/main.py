@@ -35,7 +35,7 @@ logger = None
 @click.argument('episodes', type=int)
 @click.option('--seed', default=random.randint(1000, 9999),
               help="Specify the random seed for the environment and the learning agent.")
-@click.option('-t', '--test', help="Name of the training run whose weights should be used for testing.")
+@click.option('-t', '--test', help="Name of the training run whose weights should be used for testing.sdfs")
 @click.option('-w', '--weights', help="Continue training with the specified weights (similar to testing)")
 @click.option('-a', '--append-test', is_flag=True, help="Append a test run of the previously trained agent.")
 @click.option('-v', '--verbose', is_flag=True, help="Set console logger level to debug. (Default is INFO)")
